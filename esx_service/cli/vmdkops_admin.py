@@ -154,7 +154,7 @@ def commands():
                 },
                 'update': {
                     'func': policy_update,
-                    'help': ('Update the content of a storage policy and all'
+                    'help': ('Update the definition of a storage policy and all'
                               'VSAN objects using that policy'),
                     'args': {
                         '--name': {
